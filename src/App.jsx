@@ -128,7 +128,7 @@ export default function App() {
             <button onClick={handleSignOut}>Logout</button>
           </div>
           <form onSubmit={handleAddTodo} style={{ display: 'flex', gap: 12, margin: '20px 0' }}>
-            <input type="text" placeholder="Tambah todo" value={task} onChange={(e) => setTask(e.target.value)} style={{ flex: 1 }} />
+            <input type="text" placeholder="Tambah Tugas" value={task} onChange={(e) => setTask(e.target.value)} style={{ flex: 1 }} />
             <button type="submit">Tambah</button>
           </form>
           <ul style={{ padding: 0, listStyle: 'none', display: 'grid', gap: 12 }}>
